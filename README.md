@@ -32,12 +32,9 @@
 1. **部署步骤**  
    ```bash
    # 创建Cloudflare Workers项目
-   npx wrangler init my-project
-   # 配置wrangler.toml
-   account_id = "YOUR_ACCOUNT_ID"
-   name = "cn-personal-info-generator"
+   # 复制_worker.js里的代码
+   # 粘贴_worker.js里的代码
    # 部署
-   npx wrangler publish
 
 2. **环境变量配置**  
    | 变量名   | 说明                                  | 示例值                          |
